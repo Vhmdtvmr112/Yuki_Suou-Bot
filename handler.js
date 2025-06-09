@@ -543,10 +543,10 @@ group: `*『✦』 الأمر ${comando} يستعمل فقط في المجموع
 private: `*『✦』 الأمر ${comando} يمكن استعماله فقط في الدردشة االخاصة بك .*`,
 admin: `*『✦』 الأمر ${comando} يمكن استعماله فقط من قبل ادمن الجروب .*`, 
 botAdmin: `*『✦』 لإستعمال الأمر ${comando} يجب ان تكون مشرفاً في الجروب .*`,
-unreg: `*『✦』 الأمر${comando} يمكنك استعماله اذا سجلت في البوت سجل من خلال* registrado, registrate usando:\n> » #${verifyaleatorio} ${user2}.${edadaleatoria}`,
+unreg: `*『✦』 الأمر${comando} يمكنك استعماله اذا سجلت في البوت سجل من خلال*:\n> » #${verifyaleatorio} ${user2}.${edadaleatoria}`,
 restrict: `*『✦』 هذة الخاصية معطلة*`
 }[type];
-if (msg) return m.reply(msg).then(_ => m.react('✖️'))}
+if (msg) return m.reply(msg).then(_ => m.react('🚫'))}
 
 let file = global.__filename(import.meta.url, true)
 watchFile(file, async () => {
