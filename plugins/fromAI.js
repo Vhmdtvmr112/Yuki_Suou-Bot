@@ -7,7 +7,7 @@ exports.run = {
    }) => {
       try {
          // only work in private chat
-         client.sendFromAI(m.chat,  Hi! , m)
+         client.sendFromAI(m.chat,  اهلاً! , m)
       } catch (e) {
          client.reply(m.chat, Func.jsonFormat(e), m)
       }
