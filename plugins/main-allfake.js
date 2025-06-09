@@ -29,10 +29,10 @@ console.log(`Error : ${e}`)
   
 global.creador = 'Wa.me/5212202410659'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.namechannel = '=͟͟͞❀ 𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⏤͟͟͞͞★'
-global.namechannel2 = '=͟͟͞❀ 𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⏤͟͟͞͞★'
-global.namegrupo = 'ᰔᩚ ᥡᥙkі sᥙ᥆ᥙ • ᥆𝖿іᥴіᥲᥣ ❀'
-global.namecomu = 'ᰔᩚ ᥡᥙkіᑲ᥆𝗍-mძ • ᥴ᥆mᥙᥒі𝗍ᥡ ❀'
+global.namechannel = '=͟͟͞❀ ⌬ 𝐃𝐄𝐌𝐎𝐍 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⏤͟͟͞͞★'
+global.namechannel2 ='=͟͟͞❀ ⌬ 𝐃𝐄𝐌𝐎𝐍 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⏤͟͟͞͞★'
+global.namegrupo = ' ⌬ 𝐃𝐄𝐌𝐎𝐍 • ᥆𝖿іᥴіᥲᥣ '
+global.namecomu = ' ⌬ 𝐃𝐄𝐌𝐎𝐍 • ᥴ᥆mᥙᥒі𝗍ᥡ '
 global.listo = '❀ *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1745522645448.jpeg')
 
