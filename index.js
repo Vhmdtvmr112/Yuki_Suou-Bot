@@ -9,6 +9,9 @@ import {platform} from 'process'
 import * as ws from 'ws'
 import fs, {readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileSync, rmSync, watch} from 'fs'
 import yargs from 'yargs';
+import setupVerifiedReply from  ./plugins/verifiedReply.js ;
+// بعد إنشاء conn
+setupVerifiedReply(conn);
 import {spawn} from 'child_process'
 import lodash from 'lodash'
 import { yukiJadiBot } from './plugins/jadibot-serbot.js'
